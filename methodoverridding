@@ -1,0 +1,18 @@
+package Polymorphism;
+
+public class Poly 
+{
+	void run()
+	{
+		System.out.println("overridden");
+	}
+}
+	class Java extends Poly
+	{
+		public static void main(String args[])
+		{
+		Java p=new Java();
+		p.run();
+		}
+	}
+	
