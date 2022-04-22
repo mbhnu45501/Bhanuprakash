@@ -1,0 +1,14 @@
+package Inheritance;
+
+public class Inherit {
+Float salary=(float)70000.000;
+}
+class Programmer extends Inherit
+{
+	int incentive=10000;
+	public static void main(String[] args) {
+		Programmer p=new Programmer();
+		System.out.println("programmer salary"+p.salary);
+		System.out.println("Programmer incentive"+p.incentive);
+	}
+}
