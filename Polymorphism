@@ -1,0 +1,20 @@
+package Polymorphism;
+
+public class Poly {
+	void sum(int a,int b)
+	{
+		System.out.println("sum "+(a+b));
+	}
+	void sum(float a,float b)
+	{
+		System.out.println("sum of (float) "+(a+b));
+	}
+
+	public static void main(String[] args) {
+		Poly p=new Poly();
+		p.sum(10, 20);
+		p.sum(23.5f, 45.5f);
+
+	}
+
+}
