@@ -1,0 +1,53 @@
+package employee;
+
+import java.util.*;
+public class Employee
+{
+private int empid;
+private String name;
+private Long phonenumber;
+Scanner sc= new Scanner(System.in);
+public void setEmpid()
+{
+System.out.println("enter empid");
+empid=sc.nextInt();
+}
+public void setName()
+{
+System.out.println("enter Name");
+name=sc.next();
+}
+public void setPhonenumber()
+{
+System.out.println("enter phonenumber");
+phonenumber=sc.nextLong();
+}
+public int getEmpid()
+{
+return empid;
+}
+public String getName()
+{
+return name;
+}
+public Long getPhonenumber()
+{
+return phonenumber;
+}
+public void display()
+{
+setEmpid();
+System.out.println("entered empid - "+getEmpid());
+getName(); 
+sc.nextLine();
+System.out.println("entered name - "+getName());
+setPhonenumber();
+System.out.println("entered phonenumber - "+getPhonenumber());
+}
+
+public static void main(String[] args)
+{
+   Employee emd= new  Employee();
+emd.display();
+}
+}
