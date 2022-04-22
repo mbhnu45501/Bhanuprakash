@@ -1,0 +1,18 @@
+abstract class Abs {
+	abstract void run();
+	
+}
+class encap extends Abs
+{
+	void run()
+	{
+		System.out.println("running");
+		
+	}
+	public static void main(String[] args) {
+		Abs obj =new encap();
+		obj.run();
+		// TODO Auto-generated method stub
+
+	}
+}
