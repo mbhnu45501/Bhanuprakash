@@ -1,0 +1,20 @@
+package test;
+
+import java.util.*;
+
+public class LinkedlistDemo {
+
+	public static void main(String[] args) {
+		LinkedList <String> linkedlist= new LinkedList<String>();
+		linkedlist.add("mango");
+		linkedlist.add("Apple");
+		linkedlist.add("guava");
+		linkedlist.add("grapes");
+		System.out.println(linkedlist);
+		linkedlist.remove(2);
+		System.out.println(linkedlist);
+		System.out.println(linkedlist.getLast());
+		System.out.println(linkedlist.getFirst());
+	}
+
+}
