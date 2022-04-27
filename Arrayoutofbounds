@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class arrayoutofbounds {
+public class ArrayoutofboundsDemo {
 
 	public static void main(String[] args) {
 			      int n;
