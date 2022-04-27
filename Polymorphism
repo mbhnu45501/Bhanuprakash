@@ -1,6 +1,6 @@
 package Polymorphism;
 
-public class Poly {
+public class PolymorphismDemo {
 	void sum(int a,int b)
 	{
 		System.out.println("sum "+(a+b));
