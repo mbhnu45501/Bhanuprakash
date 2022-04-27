@@ -1,0 +1,22 @@
+package test;
+
+import java.util.*;
+
+public class StackDemo {
+
+	public static void main(String[] args) {
+		Stack <String> stack= new Stack <String>();
+		stack.push("mango");
+		stack.push("Apple");
+		stack.push("guava");
+		stack.push("grapes");
+		System.out.println("stack list - "+stack);
+		stack.pop();
+		System.out.println("stack list after removing last element - "+stack);
+		for(int i=0;i<stack.size();i++)
+		{
+			System.out.println(stack.get(i));
+		}
+	}
+
+}
