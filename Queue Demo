@@ -1,0 +1,27 @@
+package test;
+
+import java.util.*;
+
+public class QueueDemo {
+
+	public static void main(String[] args) {
+		Queue<Integer> queue= new LinkedList <Integer>(); //priorityQueue,ArrayDeque,Deque can be used in inplace of linkedlist 
+		queue.add(1234);
+		queue.add(4567);
+		queue.add(8901);
+		queue.add(2345);
+		System.out.println("queue elements are - "+queue);
+		System.out.println("queue front element - "+ queue.element());
+		System.out.println("queue pointer pointing towards - "+ queue.peek());
+		int removedelement=queue.remove();
+		System.out.println("Removed queue element - "+ removedelement);
+		int firstelement=queue.poll();
+		System.out.println("updated head of queue element are - "+firstelement);
+
+		System.out.println("queue elements are - "+queue);
+
+		}
+
+	}
+
+
