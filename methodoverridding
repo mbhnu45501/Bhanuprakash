@@ -1,6 +1,6 @@
 package PolymorphismDemo;
 
-public class Poly 
+public class PolymorphismDemo 
 {
 	void run()
 	{
