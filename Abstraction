@@ -1,4 +1,4 @@
-abstract class Abstraction {
+abstract class AbstractionDemo {
 	abstract void run();
 	
 }
