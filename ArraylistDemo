@@ -1,0 +1,19 @@
+package test;
+import java.util.*;
+
+public class ArraylistDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+				ArrayList<String> arraylist= new ArrayList<String>();
+				arraylist.add("mango");
+				arraylist.add("Apple");
+				arraylist.add("guava");
+				arraylist.add("grapes");
+				System.out.println("Elements in the array list - "+arraylist);
+				arraylist.remove(2);
+				System.out.println("elements after removing one element - "+arraylist);
+			}				
+			
+}
