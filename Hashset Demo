@@ -1,0 +1,28 @@
+package test;
+
+import java.util.*;
+
+public class HashsetDemo {
+
+	public static void main(String[] args) {
+		HashSet <String> hashset= new HashSet<String>();
+		hashset.add("mango");
+		hashset.add("Apple");
+		hashset.add("guava");
+		hashset.add("grapes");
+		hashset.add("mango");
+		System.out.println("Elements in Hashset are - "+hashset); // duplicate elements removed in list
+		hashset.remove("Apple");
+		System.out.println("Elements in Hashset are - "+hashset);
+		System.out.println("Elements in Hashset are - "+hashset.size());
+		for(String fruits:hashset) // for each loop
+		{
+			System.out.println(fruits);
+
+		}
+
+
+		
+	}
+
+}
