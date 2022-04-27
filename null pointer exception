@@ -1,4 +1,4 @@
-public class Nullpointer {
+public class NullpointerDemo{
 
 	public static void main(String[] args) {
 			      Object ref = null;
