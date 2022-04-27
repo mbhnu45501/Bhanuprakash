@@ -1,0 +1,27 @@
+package test;
+
+import java.util.*;
+
+public class LinkedhashsetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedHashSet <String> hashset= new LinkedHashSet <String>(); //TreeSet can also be used
+		hashset.add("mango");
+		hashset.add("Apple");
+		hashset.add("guava");
+		hashset.add("grapes");
+		hashset.add("mango");
+		System.out.println("Elements in Hashset are - "+hashset); // duplicate elements removed in list
+		hashset.remove("Apple");
+		System.out.println("Elements in Hashset are - "+hashset);
+		System.out.println("Elements in Hashset are - "+hashset.size());
+		for(String fruits:hashset) // for each loop
+		{
+			System.out.println(fruits);
+
+		}
+
+	}
+
+}
